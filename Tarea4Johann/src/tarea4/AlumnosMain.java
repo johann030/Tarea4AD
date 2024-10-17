@@ -8,7 +8,6 @@ import java.util.Scanner;
 public class AlumnosMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		/*
 		 * Realiza un programa Java que lea los datos de 5 alumnos y los guarde campo a
 		 * campo en un fichero binario cuyo nombre (y dirección) se solicitará por
