@@ -1,5 +1,9 @@
 package tarea4;
 
+/**
+ *  @author Johann
+ */
+
 import java.io.File;
 import java.io.DataOutputStream;
 import java.io.FileNotFoundException;
@@ -9,6 +13,11 @@ import java.time.LocalDate;
 import java.time.format.DateTimeParseException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+
+/**
+ * En este main se guardan los distintos datos de un alumno en un fichero
+ * binario
+ */
 
 public class AlumnosParcialesMain {
 

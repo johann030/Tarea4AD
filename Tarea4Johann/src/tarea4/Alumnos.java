@@ -1,6 +1,15 @@
 package tarea4;
 
+/**
+*  @author Johann
+*/
+
 import java.time.LocalDate;
+
+/**
+ * Esta clase representa alumnos
+ *
+ */
 
 public class Alumnos {
 
@@ -9,6 +18,18 @@ public class Alumnos {
 	private LocalDate nacimiento;
 	private char genero;
 
+	/**
+	 * Constructor para crear un alumno con estos atributos
+	 * 
+	 * @param nia
+	 * @param nombre
+	 * @param apellidos
+	 * @param genero
+	 * @param nacimiento
+	 * @param ciclo
+	 * @param curso
+	 * @param grupo
+	 */
 	public Alumnos(int nia, String nombre, String apellidos, char genero, LocalDate nacimiento, String ciclo,
 			String curso, String grupo) {
 		this.nia = nia;
@@ -19,6 +40,12 @@ public class Alumnos {
 		this.ciclo = ciclo;
 		this.curso = curso;
 		this.grupo = grupo;
+	}
+
+	/**
+	 * Constructor por defecto
+	 */
+	public Alumnos() {
 	}
 
 	public int getNia() {
