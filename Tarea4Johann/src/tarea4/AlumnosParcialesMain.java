@@ -65,7 +65,7 @@ public class AlumnosParcialesMain {
 				String grupo = sc.nextLine();
 				escribirDatosFicheros.writeUTF(grupo);
 
-				alumno[i] = new Alumnos(nia, nombre, apellidos, genero, nacimiento, ciclo, curso, grupo);
+//				alumno[i] = new Alumnos(nia, nombre, apellidos, genero, nacimiento, ciclo, curso, grupo);
 
 			}
 		} catch (DateTimeParseException e) {
