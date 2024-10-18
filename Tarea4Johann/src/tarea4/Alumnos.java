@@ -2,8 +2,8 @@ package tarea4;
 
 import java.time.LocalDate;
 
-public class Alumnos{
-	
+public class Alumnos {
+
 	private int nia;
 	private String nombre, apellidos, ciclo, curso, grupo;
 	private LocalDate nacimiento;

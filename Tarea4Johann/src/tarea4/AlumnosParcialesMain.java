@@ -47,7 +47,7 @@ public class AlumnosParcialesMain {
 				char genero = sc.nextLine().charAt(0);
 				escribirDatosFicheros.writeChar(genero);
 
-				System.out.println("Introduzca la fecha de nacimiento del alumno(yyyy-MM-dd): ");				
+				System.out.println("Introduzca la fecha de nacimiento del alumno(yyyy-MM-dd): ");
 				String fechaEntrada = sc.nextLine();
 				LocalDate nacimiento = null;
 				nacimiento = LocalDate.parse(fechaEntrada);
